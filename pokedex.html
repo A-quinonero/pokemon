@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Aqui se cambia el favicon-->
+    <link rel="shortcut icon" type="image/png" href="images/pokeball.png"/>
+    <!--Aquí linkeamos los archivos css-->
+    <link rel="stylesheet" href="/styles/main.css">
+    <title>Pokemon</title>
+  </head>
+
+<body>
+  <header>
+    <div class="navbar">
+      <a href="index.html"><img src="images/pokemon_logo.png" alt="pokemon_logo" width="150px"></a>        
+      <img src="images/burger-blue.svg"  alt="" class="burger-menu-img" id="btn-menu">
+    
+
+      <nav class="nav" id="nav">
+        <ul class="nav-menu">
+          <li><a href="pokedex.html" class="selected">Pokédex</a></li>
+          <li><a href="ayuda.html">Ayuda</a></li>
+          <li><a href="registrate.html">Regístrate</a></li>
+          <li><a href="inicia-sesion.html">Inicia Sesión</a></li>
+        </ul>
+      </nav>      
+    </div>
+
+    <section class="header-section img-bg-pokedex">
+      <div class="header-text">
+        <h1>Pokédex</h1>
+        <p>Descubre los 150 Pokémon e intenta atraparlos a todos!<br></p>
+      </div>
+    </section>
+  </header>
+
+  <main>
+      <section class="pokemon-list main-section">
+      </section>
+  </main>
+  <script src="scripts/burger.js"></script>
+  <script src="scripts/pokeApiService.js"></script>
+</body>
+
+</html>

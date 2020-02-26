@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Aqui se cambia el favicon-->
+    <link rel="shortcut icon" type="image/png" href="images/pokeball.png"/>
+    <!--Aquí linkeamos los archivos css-->
+    <link rel="stylesheet" href="/styles/main.css">
+    <title>Pokemon</title>
+  </head>
+
+<body>
+  <header>
+    <div class="navbar">
+      <a href="index.html"><img src="images/pokemon_logo.png" alt="pokemon_logo" width="150px"></a>        
+      <img src="images/burger-blue.svg"  alt="" class="burger-menu-img" id="btn-menu">
+    
+
+      <nav class="nav" id="nav">
+        <ul class="nav-menu">
+          <li><a href="pokedex.html">Pokédex</a></li>
+          <li><a href="ayuda.html">Ayuda</a></li>
+          <li><a href="registrate.html">Regístrate</a></li>
+          <li><a href="inicia-sesion.html" class="selected">Inicia Sesión</a></li>
+        </ul>
+      </nav>      
+    </div>
+  </header>
+
+  <main class="main-forms">
+    <section>
+
+      <h2>Accede!</h2>
+
+      <div class="form-wrapper">
+        <form action="">
+          <input type="email" id="email" placeholder="Email" />
+          <input type="password" id="password" placeholder="******" />
+
+          <button type="submit" class="button" id="login-button">Empezar</button>
+        </form>
+        <div class="errors-container"></div>
+      </div>
+
+    </section>
+  </main>
+  <script src="scripts/burger.js"></script>
+</body>
+
+</html>
